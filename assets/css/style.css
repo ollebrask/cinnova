@@ -2,16 +2,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 /* Overrides default browser styles */
-*, *::before, *::after {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: blue;
+/* Use imported font for h1,h2,h3 */
+h1, h2, h3 {
+    font-family: 'Bebas Neue', sans-serif;
+
 }
 
+/* Header content*/
+header {
+    background-color: rgb(105, 105, 124);
+}
+
+.menu a{
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration-line: none;
+    
+}
+
+/*Main content*/
 main {
     background-color: orange;
 }
