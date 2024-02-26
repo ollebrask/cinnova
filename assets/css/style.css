@@ -17,6 +17,15 @@ h1, h2, h3 {
 /* Header content*/
 header {
     background-color: rgb(105, 105, 124);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.menu {
+    /*Remove the dots*/
+    list-style-type: none;
+    
 }
 
 .menu a{
