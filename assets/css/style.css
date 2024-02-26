@@ -1,0 +1,21 @@
+/* Import google font Bebas Neue */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap')
+
+/* Overrides default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: blue;
+}
+
+main {
+    background-color: orange;
+}
+
+footer {
+    background-color: green;
+}
