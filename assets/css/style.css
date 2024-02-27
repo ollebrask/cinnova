@@ -19,7 +19,13 @@ header {
     background-color: rgb(105, 105, 124);
     display: flex;
     width: 100%;
-    flex-direction: column;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    
+    
+    
+    
 }
 
 .menu {
@@ -35,16 +41,25 @@ header {
     
 }
 
+/*Hiding the <nav> for use of the dropdown*/
+nav {
+    position: absolute;
+    background-color: rgb(105, 105, 124);
+    width: 100%;
+    top: 100%
+}
+
 /*Main content*/
 main {
     background-color: orange;
     display: flex;
     flex: 1 0 auto;
+    flex-direction: column;
+    margin-top: 98px
 
 }
 
 /* Footer content*/
-
 #social-network {
     background-color: rgb(105, 105, 124);
     display: flex;
