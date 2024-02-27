@@ -22,10 +22,7 @@ header {
     z-index: 999;
     position: fixed;
     top: 0;
-    
-    
-    
-    
+    padding-left: 4px;
 }
 
 .menu {
@@ -48,6 +45,8 @@ nav {
     width: 100%;
     top: 100%;
     display: none;
+    left: 0;
+    padding-left: 4px;
 }
 
 /*Menu bar toggle*/
@@ -57,6 +56,12 @@ nav {
 
 #menu-toggle {
     display: none;
+}
+/* Hamburger placing*/
+.menu-toggle-label {
+    display: flex;
+    align-items: center;
+    padding-right: 4px;
 }
 
 /*Main content*/
