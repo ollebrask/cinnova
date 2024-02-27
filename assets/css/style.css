@@ -16,7 +16,7 @@ h1, h2, h3 {
 
 /* Header content*/
 header {
-    background-color: rgb(105, 105, 124);
+    background-color: rgb(68, 68, 76);
     display: flex;
     width: 100%;
     z-index: 999;
@@ -24,6 +24,7 @@ header {
     top: 0;
     padding-left: 4px;
     align-items: center;
+    color: rgb(215, 213, 213);
 }
 
 .menu {
@@ -35,14 +36,14 @@ header {
 .menu a{
     font-family: 'Bebas Neue', sans-serif;
     text-decoration-line: none;
-    color: black;
+    color: rgb(215, 213, 213);
     
 }
 
 /*Hiding the <nav> for use of the dropdown*/
 nav {
     position: absolute;
-    background-color: rgb(105, 105, 124);
+    background-color: rgb(68, 68, 76);
     width: 100%;
     top: 100%;
     display: none;
@@ -78,7 +79,7 @@ main {
 
 /* Footer content*/
 #social-network {
-    background-color: rgb(105, 105, 124);
+    background-color: rgb(68, 68, 76);
     display: flex;
     list-style-type: none;
     text-align: center;
@@ -89,7 +90,7 @@ main {
 
 #social-network i {
     font-size: 130%;
-    color: rgb(214, 214, 216)
+    color: rgb(215, 213, 213);
 }
 
 /* Media query: Tablets and larger 768px */
