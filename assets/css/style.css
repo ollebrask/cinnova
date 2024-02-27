@@ -126,3 +126,25 @@ main {
         margin-top: 57px;
     }
 }
+
+/* Media query: Tablets and larger 992px */
+@media screen and (min-width: 992px) {
+     /*Changes to header */
+     header {
+        padding-left: 40px;
+    }
+
+    #logo {
+        font-size: 500%;
+    }
+
+    .menu {
+        font-size: 160%;
+    }
+
+    /*Changes to main*/
+    main {
+        margin-top: 96px;
+    }
+
+}
