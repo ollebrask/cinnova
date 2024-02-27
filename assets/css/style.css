@@ -46,7 +46,17 @@ nav {
     position: absolute;
     background-color: rgb(105, 105, 124);
     width: 100%;
-    top: 100%
+    top: 100%;
+    display: none;
+}
+
+/*Menu bar toggle*/
+#menu-toggle:checked~nav {
+    display: block;
+}
+
+#menu-toggle {
+    display: none;
 }
 
 /*Main content*/
@@ -55,7 +65,7 @@ main {
     display: flex;
     flex: 1 0 auto;
     flex-direction: column;
-    margin-top: 98px
+    margin-top: 38px
 
 }
 
