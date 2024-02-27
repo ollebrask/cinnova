@@ -77,6 +77,12 @@ main {
 
 }
 
+.hero {
+    height: 400px;
+    width: 100%;
+    background: url("../images/hero.jpg") no-repeat center/cover;
+}
+
 /* Footer content*/
 #social-network {
     background-color: rgb(68, 68, 76);
