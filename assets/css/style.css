@@ -43,6 +43,18 @@ main {
 
 }
 
-footer {
-    background-color: green;
+/* Footer content*/
+
+#social-network {
+    background-color: rgb(105, 105, 124);
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 15px 0;
+}
+
+#social-network i {
+    font-size: 130%;
+    color: rgb(214, 214, 216)
 }
