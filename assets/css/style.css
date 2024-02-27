@@ -95,16 +95,34 @@ main {
 
 /* Media query: Tablets and larger 768px */
 @media screen and (min-width: 768px) {
+    /*Changes to header */
+    header {
+        padding-left: 12px;
+    }
+
+    #logo {
+        font-size: 300%;
+    }
+    /* Blocking of navigation under header*/
     nav {
         display: block;
         position: relative;
     }
-
+    /* Showing of the menu in the header*/
     .menu {
         display: flex;
         padding-right: 100px;
         gap: 70px;
         justify-content: flex-end;
         
+    }
+    /*Hiding the burger*/
+    .menu-toggle-label {
+        display: none;
+    }
+
+    /*Changes to main*/
+    main {
+        margin-top: 57px;
     }
 }
