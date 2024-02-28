@@ -119,12 +119,21 @@ main {
     padding-top: 12px;
     background-color: rgb(68, 68, 76);
     color: rgb(215, 213, 213);
+    width: 100;
     /*padding-bottom: 2px;*/
 }
+
 .service-regular {
     display: flex;
-    gap: 1rem;
+    width: 100%;
+    padding-bottom: 20px;
     
+}
+.service-invert {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    padding-bottom: 20px;
 }
 
 .service_img img{
@@ -134,9 +143,10 @@ main {
 
 .service_text {
     padding: 2px;
+    width: 100;
 }
 .service_text h2 {
-    width: 50vw;
+    width: 45vw;
     
 }
 
