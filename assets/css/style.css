@@ -90,6 +90,30 @@ main {
     text-shadow: 2px 2px 2px black;
 }
 
+/* Index images */
+.image_header {
+    text-align: center;
+    padding-top: 2px;
+    background-color: rgb(68, 68, 76);
+    color: rgb(215, 213, 213);
+}
+.imagebox_1 {
+    
+    background-color: rgb(68, 68, 76);
+}
+
+.imagebox_text {
+    color: rgb(215, 213, 213);
+    text-align: center;
+    background-color: rgb(68, 68, 76);
+}
+.index-images img {
+    height: auto;
+    width: 100%;
+    /*padding: 10px;*/
+}
+
+
 /* Footer content*/
 #social-network {
     background-color: rgb(68, 68, 76);
