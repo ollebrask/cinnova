@@ -113,6 +113,34 @@ main {
     width: 100%;
 }
 
+/*Services page*/
+.service-header {
+    text-align: center;
+    padding-top: 12px;
+    background-color: rgb(68, 68, 76);
+    color: rgb(215, 213, 213);
+    /*padding-bottom: 2px;*/
+}
+.service-regular {
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.service_img img{
+    height: auto;
+    width: 100%;
+}
+
+.service_text {
+    padding: 2px;
+}
+.service_text h2 {
+    width: 50vw;
+    
+}
+
+
 
 /* Footer content*/
 #social-network {
