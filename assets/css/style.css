@@ -83,6 +83,13 @@ main {
     background: url("../images/hero.jpg") no-repeat center/cover;
 }
 
+.hero-text {
+    color: rgb(215, 213, 213);
+    padding-top: 55px;
+    padding-left: 9vw;
+    text-shadow: 2px 2px 2px black;
+}
+
 /* Footer content*/
 #social-network {
     background-color: rgb(68, 68, 76);
@@ -131,6 +138,11 @@ main {
     main {
         margin-top: 57px;
     }
+
+    .hero-text {
+        padding-top: 9vw;
+        padding-left: 10vw;
+    }
 }
 
 /* Media query: Laptops and larger 992px */
@@ -151,6 +163,12 @@ main {
     /*Changes to main*/
     main {
         margin-top: 96px;
+    }
+
+    .hero-text {
+        padding-top: 6vw;
+        padding-left: 15vw;
+        font-size: 120%;
     }
 
 }
