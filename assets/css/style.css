@@ -114,6 +114,9 @@ main {
 }
 
 /*Services page*/
+.service-header {
+    text-align: center;
+}
 .service_text  {
     display: flex;
     flex-direction: column;
@@ -203,18 +206,14 @@ main {
     }
 
     /*Changes for services page*/
-    /*.service-regular {
-        display: flex;
-        width: 100%;
-        padding-bottom: 20px;
-        justify-content: center;
-        
-        
+    .services, .services-reverse {
+        margin-inline: auto;
+        max-width: 600px; 
     }
-    .service_img img{
-        height: auto;
-        width: 60%;
-    }*/
+
+    .service-header {
+        display: none;
+    }
 }
 
 /* Media query: Laptops and larger 992px */
