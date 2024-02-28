@@ -93,12 +93,13 @@ main {
 /* Index images */
 .image_header {
     text-align: center;
-    padding-top: 2px;
+    padding-top: 12px;
     background-color: rgb(68, 68, 76);
     color: rgb(215, 213, 213);
+    /*padding-bottom: 2px;*/
 }
-.imagebox_1 {
-    
+.imagebox {
+    padding: 12px;
     background-color: rgb(68, 68, 76);
 }
 
@@ -110,7 +111,6 @@ main {
 .index-images img {
     height: auto;
     width: 100%;
-    /*padding: 10px;*/
 }
 
 
