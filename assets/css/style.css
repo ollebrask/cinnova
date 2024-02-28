@@ -172,7 +172,7 @@ main {
     .index-images {
         display: flex;
     }
-
+}
 
 /* Media query: Laptops and larger 992px */
 @media screen and (min-width: 992px) {
