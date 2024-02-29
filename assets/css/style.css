@@ -154,8 +154,27 @@ main {
     background: url("../images/hero.jpg") no-repeat center center/cover;
     width: 100%;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
+.contact_box {
+    padding: 20px;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(90, 90, 94, 30%);
+    border: 2px solid black;
+}
+
+.label_hidden {
+    display: none;
+}
 
 /* Footer content*/
 
