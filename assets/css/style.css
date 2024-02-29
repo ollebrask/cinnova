@@ -125,14 +125,12 @@ main {
     width: 50%;
     color:rgb(215, 213, 213);
     padding-top: 2%;
-    /*border: 1px solid black;*/
     
 }
 
 #service_image {
     width: 50%;
     height: auto;
-    /*border: 1px solid black;*/
 }
 
 .services {
