@@ -109,6 +109,7 @@ main {
 .index-images img {
     height: auto;
     width: 100%;
+    display: block;
 }
 
 /*Services page*/
@@ -140,6 +141,7 @@ main {
 
 #service_image img {
     width:100%;
+    display: block;
 }
 
 .services-reverse {
