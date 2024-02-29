@@ -31,28 +31,48 @@
         </nav>
     </header>
     <main>
-        <section id="hero2"></section>
-        <!--<section id="contact">
-            <section id="hero2">
-                <div id="text">
-                    <p>hello</p>
-                </div>
-            </section>
-        </section> !-->
+        <section class="hero2">
+            <!--Form section-->
+            <div class="contact_box">
+                <form method="GET" action="response.html" class="sign-up">
+                    <h2>Fill the form and we will contact you!</h2>
+                    <!--Name-->
+                    <label for="name" class="label_hidden label_name">Name</label>
+                    <div class="input_name">
+                        <input id="name" name="name" type="text" placeholder="Name" required class="text_input" />
+                    </div>
+                    <!--Name of business-->
+                    <label for="company" class="label_hidden label_company">Business</label>
+                    <div class="input_company">
+                        <input id="company" name="company" type="text" placeholder="Company" required
+                            class="text_input" />
+                    </div>
+                    <!-- Email -->
+                    <label for="email" class="label_hidden label_email">Email Address</label>
+                    <div class="input_email">
+                        <input type="email" id="email" name="email" placeholder="Email Address" required
+                            class="text_input">
+                    </div>
+                    <!-- Submit button-->
+                    <button class="button submit_button" type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
     </main>
     <footer class="contact-footer">
         <ul id="social-network">
             <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit us on Facebook (Page opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+                    aria-label="Visit us on Facebook (Page opens in a new tab)"><i
+                        class="fa-brands fa-facebook"></i></a>
             </li>
             <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
                     aria-label="Visit us on Instagram (Page opens in a new tab)"><i
                         class="fa-brands fa-instagram"></i></a>
             </li>
             <li><a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                aria-label="Visit us on Twitter (Page opens in a new tab)"><i
-                    class="fa-brands fa-square-twitter"></i></a>
-        </li>
+                    aria-label="Visit us on Twitter (Page opens in a new tab)"><i
+                        class="fa-brands fa-square-twitter"></i></a>
+            </li>
         </ul>
     </footer>
     <!-- Font awesome script-->
