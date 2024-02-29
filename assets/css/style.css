@@ -284,6 +284,35 @@ main {
     .service_text {
         font-size: 180%;
     }
+
+    /*Changes for contact us page*/
+    .hero2 {
+        flex-direction: row;
+    }
+
+    .address_box {
+        padding-left: 25%;
+        padding-right: 2%;
+        padding-top: 10%;
+    }
+
+    .address_list {
+        height: 40vh;
+        width: 25vw;
+        padding: 40px;
+    }
+
+    .contact_box {
+        padding-left: 2%;
+        padding-right: 25%;
+        padding-top: 10%;
+    }
+
+    .sign-up {
+        height: 40vh;
+        width: 25vw;
+        padding: 20px;
+    }
 }
 
 /* Media query: Laptops and larger 992px */
