@@ -64,7 +64,7 @@ nav {
 .menu-toggle-label {
     display: flex;
     padding-right: 10px;
-    padding-left: 4px
+    padding-left: 4px;
 }
 
 /*Main content*/
@@ -197,7 +197,7 @@ main {
 }
 
 .contact_text {
-    color: rgb(215, 213, 213)
+    color: rgb(215, 213, 213);
 }
 
 .label_hidden {
@@ -210,7 +210,7 @@ main {
 .contact-footer {
     position: fixed;
     bottom: 0;
-    width: 100%
+    width: 100%;
 }
 
 #social-network {
