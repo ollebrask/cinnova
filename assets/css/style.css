@@ -124,18 +124,20 @@ main {
     text-align: center;
     width: 50%;
     color:rgb(215, 213, 213);
-    border: 4px solid black;
+    padding-top: 2%;
+    /*border: 1px solid black;*/
     
 }
 
 #service_image {
     width: 50%;
     height: auto;
-    border: 4px solid black;
+    /*border: 1px solid black;*/
 }
 
 .services {
     display: flex;
+    padding: 2%;
 }
 
 #service_image img {
