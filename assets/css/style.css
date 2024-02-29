@@ -8,7 +8,7 @@
     padding: 0;
 }
 
-/* Use imported font for h1,h2,h3 */
+/* Use imported font for h1,h2,h3,h4 */
 h1, h2, h3, h4 {
     font-family: 'Bebas Neue', sans-serif;
 
@@ -158,10 +158,10 @@ main {
     flex-direction: column;
     justify-content: center;
 }
-
+/* First box , Address*/
 .address_box {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
     width: 100%;
 }
 
@@ -173,11 +173,12 @@ main {
     padding: 6px;
     background-color: rgb(90, 90, 94, 40%);
     border: 1px solid black;
-    width: 100%;
 }
+
+/* Second box, contact form*/
 .contact_box {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
     width: 100%;
 }
 
@@ -188,13 +189,17 @@ main {
     text-align: center;
     background-color: rgb(90, 90, 94, 40%);
     border: 1px solid black;
-    width: 100%;
     padding: 6px;
 }
 
 #name, #company, #email {
-    width: 100%;
+   width: 100%;
 }
+
+.contact_text {
+    color: rgb(215, 213, 213)
+}
+
 .label_hidden {
     display: none;
 }
