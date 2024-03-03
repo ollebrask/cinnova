@@ -241,6 +241,10 @@ main {
     padding-bottom: 4px;
 }
 
+.submit_button:hover {
+    cursor: pointer;
+}
+
 /* Footer content*/
 footer {
     width: 100%;
