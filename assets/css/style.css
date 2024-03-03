@@ -229,6 +229,18 @@ main {
     display: none;
 }
 
+.input_name {
+    padding-bottom: 4px;
+}
+
+.input_company {
+    padding-bottom: 4px;
+}
+
+.input_email {
+    padding-bottom: 4px;
+}
+
 /* Footer content*/
 footer {
     width: 100%;
@@ -256,7 +268,7 @@ footer {
 }
 
 #social-network i:hover {
-    color: #fafafa
+    color: #fafafa;
 }
 
 /* Media query: Tablets and larger 768px */
