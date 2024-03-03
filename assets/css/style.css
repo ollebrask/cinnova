@@ -17,6 +17,7 @@ h4 {
 
 }
 
+/*Body styles*/
 body {
     display: flex;
     min-height: 100vh;
@@ -249,6 +250,7 @@ main {
 .response_box {
     padding: 2%;
 }
+
 .response_content {
     display: flex;
     flex-direction: column;
@@ -264,6 +266,7 @@ main {
 footer {
     width: 100%;
 }
+
 /* Fixed footer for contact page*/
 .contact-footer {
     position: fixed;
