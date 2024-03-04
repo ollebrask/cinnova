@@ -1,4 +1,4 @@
-![Cinnova logo]()
+![Cinnova logo](documentation/logo.png)
 
 ---
 
@@ -6,9 +6,9 @@
 
 The Cinnova website allows people to learn what services the company provides.
 
-The site can be accessed by this [link]()
+The site can be accessed by this [link](https://ollebrask.github.io/cinnova/)
 
-![Responsive Mockup]()
+![Responsive Mockup](documentation/responsive.png)
 
 
 ---
