@@ -41,19 +41,17 @@ The site can be accessed by this [link]()
         * SERVICES - this leads to the services page where people can see more detailed information about the services provided.
         * CONTACT US - this leads to the contact page where there is information about the address of the company and a form to fill out if you want the company to contact you.
     - The links switch color when hovered.
-    ![NavBar desktop]()
+    ![NavBar desktop](documentation/header.png)
 
     - The navigation bar is responsive:
-        * On tablets and larger : the navigation is is on the right side.
-        ![NavBar Tablets]()
+        * On tablets and larger: the navigation is on the right side.
 
         * On mobile devices: 
             - on the left side of the logo there is a hamburger menu.      
-            ![NavBar Mobile Closed]()
+            ![NavBar Mobile Closed](documentation/header_mobile.png)
         
             - When the hamburger menu is clicked, there is dropdown menu with the links in the same order.
-            ![NavBar Mobile Open] ()
-
+            ![NavBar Mobile Opened](documentation/navigation_mobile.png)
 
 
 ---
@@ -66,7 +64,7 @@ The site can be accessed by this [link]()
         * A quick peak of the services provided.
 
 
-    ![Home Page]()
+    ![Home Page](documentation/home-page.png)
 
 ---
 
@@ -77,7 +75,7 @@ The site can be accessed by this [link]()
     - The hero section contains some inspiring text.
 
     
-    ![Hero Section]()
+    ![Hero Section](documentation/hero-section.png)
 
 --- 
 
@@ -88,7 +86,7 @@ The site can be accessed by this [link]()
     - Attracts viewers to learn more about the services.
 
     
-    ![What we do Section]()
+    ![What we do Section](documentation/service-preview.png)
 
 
 ---
@@ -98,7 +96,7 @@ The site can be accessed by this [link]()
     - The footer contains social media links that open in a new tab.
     - The links in the footer change color when hovered.
 ​
-    ![Footer]()
+    ![Footer](documentation/footer.png)
 ​
 ---
 + ### Services Page
@@ -106,11 +104,10 @@ The site can be accessed by this [link]()
     - The services page has the three images of the services provided.
     - The first and third image is placed on the right side. The second image is placed on the left side.
     - Each image contains some information about each service. 
+
+    ![Services Page](documentation/services-page.png)
     
 ​
-    ![Tour page]()
-
-
 ---
 + ### Contact us page
 
@@ -121,7 +118,7 @@ The site can be accessed by this [link]()
     
     - When you press the submit button it leads to a response page.
 ​
-    ![Contact page]()
+    ![Contact page](documentation/contactus-page.png)
 
 
 ---
@@ -131,7 +128,7 @@ The site can be accessed by this [link]()
     - It contains a message that the company will contact you as soon as they can and that you will be returning to the homepage in 10 seconds.
     - It will automatically direct the user to the main page after 10 seconds.
 
-    ![Response page]()
+    ![Response page](documentation/response-page.png)
 
 ---
 ## Technologies Used
@@ -163,7 +160,7 @@ The site can be accessed by this [link]()
 ### Typography
 
 
-![Main Font]()
+![Main Font](documentation/font.png)
 
 - Bebas Neue Google Font was used as the main font.
 
@@ -231,3 +228,5 @@ In your IDE Terminal, type the following command to clone my repository:
 - [Kevin Powell](https://www.youtube.com/user/KepowOb) for his flexbox tutorials.
 
 - My friend Pontus Karlström, who recently started the Cinnova company and let me use his company as my first project.
+
+[def]: documentation/header_mobile.png
