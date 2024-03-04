@@ -155,7 +155,7 @@ main h4 {
 
 }
 
-#service_image {
+.service_image {
     width: 50%;
     height: auto;
 }
@@ -165,7 +165,7 @@ main h4 {
     padding: 2%;
 }
 
-#service_image img {
+.service_image img {
     width: 100%;
     display: block;
 }
@@ -173,6 +173,7 @@ main h4 {
 .services-reverse {
     display: flex;
     flex-direction: row-reverse;
+    padding: 2%;
 }
 
 /*Contact page */
