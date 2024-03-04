@@ -5,7 +5,7 @@
 
 In order to confirm the correct functionality, responsiveness, and appearance:
 
-+ The website was tested on the following browsers: Chrome, Firefox, Brave.
++ The website was tested on the following browsers: Chrome and Safari
 
     - Chrome:
 
@@ -13,14 +13,14 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     - Safari:
 
-    ![FireFox](documentation/safari.png)
+    ![Safari](documentation/safari.png)
 
 
 
 ## Responsiveness
 
 
-+ The website was checked by devtools implemented in Firefox and Chrome browsers.
++ The website was checked by devtools implemented in Chrome.
 
 
 + The website was checked with [Responsive Viewer addon for Chrome](https://responsiveviewer.org/).

@@ -141,6 +141,7 @@ The site can be accessed by this [link](https://ollebrask.github.io/cinnova/)
 - [Git](https://git-scm.com/) was used for the version control of the website.
 - [GitHub](https://github.com/) was used to host the code of the website.
 - [Adobe Firefly](https://adobe.com/products/firefly.html/) was used to generate all the images for the webpage.
+- [Birme](https://www.birme.net) was used to optimize images.
 
 
 
@@ -166,14 +167,10 @@ The site can be accessed by this [link](https://ollebrask.github.io/cinnova/)
 
 
 ### Wireframes
-
-#### Desktop
-
-- [Home Page. Desktop Screen]()
-- [Gallery Page. Desktop Screen]()
-- [Contact Page. Desktop Screen]()
-- [Response Page. Desktop Screen]()
-
+- [Home Page](documentation/index-wireframe.png)
+- [Services](documentation/services-wireframe.png)
+- [Contact Page](documentation/contact-wireframe.png)
+- [Response Page](documentation/response-wireframe.png)
 
 ---
 
@@ -205,21 +202,21 @@ In your IDE Terminal, type the following command to clone my repository:
 ---
 
 ## Future improvements
-- ???
+- In the future I will make the Hero image a video.
 
 ---
 ## Credits
 
 + #### Content
 
-    - Inspiration for the README file came from my mentor Iuliia Konovalova's Animal Shelter Project [Animal Shelter README](https://github.com/IuliiaKonovalova/animal_shelter/blob/main/README.md)
+    - The structure of the README/TESTING file came from my mentor Iuliia Konovalova's Animal Shelter Project [Animal Shelter README](https://github.com/IuliiaKonovalova/animal_shelter/blob/main/README.md)
     - Inspiration for the hamburger menu came from the Code Institutes: Love Running Walkthrough Project.
     - Inspiration for the social media footer came from the Code Institutes: Love Running Walkthrough Project.
 
 + #### Media
 
     - All the images for the website were generated with [Adobe Firefly](https://adobe.com/products/firefly.html/).
-    
+    - The images were optimized with [Birme](https://www.birme.net)
 ---
 
 ## Acknowledgments
@@ -228,5 +225,3 @@ In your IDE Terminal, type the following command to clone my repository:
 - [Kevin Powell](https://www.youtube.com/user/KepowOb) for his flexbox tutorials.
 
 - My friend Pontus Karlström, who recently started the Cinnova company and let me use his company as my first project.
-
-[def]: documentation/header_mobile.png
