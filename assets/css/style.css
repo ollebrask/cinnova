@@ -97,6 +97,10 @@ main {
     width: 100%;
 }
 
+main h4 {
+    font-size: 80%;
+}
+
 .hero {
     height: 400px;
     width: 100%;
