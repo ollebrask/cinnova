@@ -71,36 +71,30 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     - No errors or warnings were found when passing through the official W3C validator.
 
 
-    ![Home Page HTML Validator](documentation/w3_validator_home_page.png)
+    ![Home Page HTML Validator](documentation/index-html-val.png)
     
-  #### Gallery Page
+  #### Services Page
     - No errors or warnings were found when passing through the official W3C validator.
 
-    ![Gallery Page HTML Validator](documentation/w3_validator_gallery_page.png)
+    ![Services Page HTML Validator](documentation/services-html-val.png)
 
   #### Contact Page
     - No errors or warnings were found when passing through the official W3C validator.
 
-    ![Contact Page HTML Validator](documentation/w3_validator_contact_page.png)
+    ![Contact Page HTML Validator](documentation/contact-html-val.png)
 
   #### Response Page
     - No errors or warnings were found when passing through the official W3C validator.
 
-    ![Response Page HTML Validator](documentation/w3_validator_response_page.png)
+    ![Response Page HTML Validator](documentation/response-html-val.png)
     
 + ### CSS
-  No errors or warnings were found when passing through the official W3C (Jigsaw) validator except:
+  No errors or warnings were found when passing through the official W3C (Jigsaw) validator:
     
-    - 3 errors regarding *all: unset*: "Property all doesn't exist. The closest matching property name is fill : unset".
 
-    - Even though this error is present, I don't believe it is 100% accurate, and more information can be found [here](https://developer.mozilla.org/en-US/docs/Web/CSS/all)
-
-  ![CSS Validator errors](documentation/w3_validator_css_errors.png)
+  ![CSS Validator](documentation/css-val.png)
   
-    - 43 warning regarding the use of *:root variables*: "Due to their dynamic nature, CSS variables are currently not statically checked".
-    
-  ![CSS Validator errors](documentation/w3_validator_css_warnings.png)
-
+ 
 
 + ## LightHouse report
 
@@ -108,40 +102,27 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     
   ### Home page
 
-  ![Home Page Lighthouse](documentation/lighthouse_home_page.png)
+  ![Home Page Lighthouse](documentation/index-lighthouse.png)
 
-  ### Gallery page
+  ### Services page
 
-  ![Gallery Page Lighthouse](documentation/lighthouse_gallery_page.png)
+  ![Gallery Page Lighthouse](documentation/services-lighthouse.png)
 
   ### Contact page
 
-  ![Contact Page Lighthouse](documentation/lighthouse_contact_page.png)
+  ![Contact Page Lighthouse](documentation/contact-lighthouse.png)
 
   ### Response page
 
-  ![Response Page Lighthouse](documentation/lighthouse_response_page.png)
+  ![Response Page Lighthouse](documentation/response-lighthouse.png)
 
 ---
-​
-## Bugs
-+ ### Solved bugs
-    1. The testimonials pictures had a square shape in Brave browser on a mobile phone when the border radius had been set to 50%. It was due to the outline properties settings instead of the border
-    
-        *Solutions:* Outline was replaced with border properties.
-    
-    1. The gallery image descriptions were not appearing on the picture when hovering it as the position of the .image_content was set to fixed.
-        
-        *Solution:* The .image_content position was set to absolute, with the top: 0, left: 0, and added padding on the .image_content. 
 
-    1. Footer on the contact page was reducing the size of the screen and shrank the contact form as the height of the background image was set to calc(100vh-the size of the footer)
-        
-        *Solution:* The height of the image was set to 100hv, and the display of the footer was set to fixed.
-    ---
 + ### Unsolved bugs
     - None.
 + ### Mistakes
-    - Mistakes were made while committing changes. I used past simple tense in commits due to the habit when I just started working on this project.
-    - While progressing in my code I learned to use present simple tense in commits.
+    - I added the images and started coding before optimizing them for a website.
+    This gave the website a very low score in Performance in the lighthouse-report.
+    Afterwards I changed the images to .webp, and that enhanced the result but I also need to resize the images.
 
 ---
