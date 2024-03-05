@@ -44,14 +44,12 @@ header {
 .menu {
     /*Remove the dots*/
     list-style-type: none;
-
 }
 
 .menu a {
     font-family: 'Bebas Neue', sans-serif;
     text-decoration-line: none;
     color: rgb(215, 213, 213);
-
 }
 
 .menu a:hover {
@@ -123,7 +121,6 @@ main h4 {
     padding-top: 12px;
     color: rgb(215, 213, 213);
     width: 100%;
-    /*padding-bottom: 2px;*/
 }
 
 .image_header div {
@@ -161,7 +158,6 @@ main h4 {
     width: 50%;
     color: rgb(215, 213, 213);
     padding-top: 2%;
-
 }
 
 .service_image {
@@ -186,7 +182,6 @@ main h4 {
 }
 
 /*Contact page */
-
 .hero2 {
     background: url("../images/hero.webp") no-repeat center center/cover;
     width: 100%;
@@ -336,7 +331,6 @@ footer {
         padding-right: 100px;
         gap: 70px;
         justify-content: flex-end;
-
     }
 
     /*Hiding the burger*/
