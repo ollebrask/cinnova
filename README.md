@@ -202,7 +202,8 @@ In your IDE Terminal, type the following command to clone my repository:
 ---
 
 ## Future improvements
-- In the future I will make the Hero image a video.
+- I will make back-end programming for the form on the Contact us page.
+- I will make a 404 error page for the website.
 
 ---
 ## Credits
