@@ -14,7 +14,6 @@ h2,
 h3,
 h4 {
     font-family: 'Bebas Neue', sans-serif;
-
 }
 
 /*Body styles*/
@@ -56,7 +55,11 @@ header {
 }
 
 .menu a:hover {
-    color: #fafafa;
+    color: #ffc373;
+}
+
+.active {
+    text-decoration: underline !important;
 }
 
 /*Hiding the <nav> for use of the dropdown*/
@@ -119,7 +122,12 @@ main h4 {
     text-align: center;
     padding-top: 12px;
     color: rgb(215, 213, 213);
+    width: 100%;
     /*padding-bottom: 2px;*/
+}
+
+.image_header div {
+    padding: 2em;
 }
 
 .imagebox {
@@ -129,6 +137,7 @@ main h4 {
 .imagebox_text {
     color: rgb(215, 213, 213);
     text-align: center;
+    padding: 1em;
 }
 
 .index-images img {
@@ -140,7 +149,7 @@ main h4 {
 /*Services page*/
 .service-header {
     text-align: center;
-    padding-top: 4px;
+    padding-top: 2em;
     color: rgb(215, 213, 213);
     background-color: rgb(90, 90, 94);
 }
@@ -247,8 +256,13 @@ main h4 {
     padding-bottom: 4px;
 }
 
+.submit_button {
+    padding: 0.5em 1em;
+}
+
 .submit_button:hover {
     cursor: pointer;
+    background-color: #ffc373;
 }
 
 /* Response page */
@@ -295,7 +309,7 @@ footer {
 }
 
 #social-network i:hover {
-    color: #fafafa;
+    color: #ffc373;
 }
 
 /* Media query: Tablets and larger 768px */
@@ -353,7 +367,7 @@ footer {
     }
 
     .service-header {
-        display: none;
+        font-size: 180%;
     }
 
     .service_text {
@@ -431,5 +445,4 @@ footer {
         padding-left: 15vw;
         font-size: 120%;
     }
-
 }
