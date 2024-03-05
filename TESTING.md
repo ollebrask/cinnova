@@ -117,7 +117,9 @@ In order to confirm the correct functionality, responsiveness, and appearance:
   ![Response Page Lighthouse](documentation/response-lighthouse.png)
 
 ---
-
++ ### Bugs
+    - I had some horizontal overflow on the Contact us page. I had forgot to create style for parent containers: width: 100%, display: flex etc.
+    - When i tried to make underline for current pages in the navigation bar it didn't because of other code overwriting the style. I had to use an !important tag to make it work.
 + ### Unsolved bugs
     - None.
 + ### Mistakes

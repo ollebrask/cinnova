@@ -216,7 +216,12 @@ In your IDE Terminal, type the following command to clone my repository:
 + #### Media
 
     - All the images for the website were generated with [Adobe Firefly](https://adobe.com/products/firefly.html/).
-    - The images were optimized with [Birme](https://www.birme.net)
+    - The images were optimized with [Birme](https://www.birme.net).
+
++ #### Other
+
+    - Github was used to store my repository and for free deployments. [GitHub](https://github.com)
+    - Visual Studio Code was used as code editor. [Visual Studio Code](https://code.visualstudio.com)    
 ---
 
 ## Acknowledgments
